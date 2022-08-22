@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 export default function HeaderHome() {
   return (
@@ -43,13 +43,12 @@ export default function HeaderHome() {
               <NavLink className='dropdown-item' to='/usestate'>
                 UseState
               </NavLink>
-              <NavLink className='dropdown-item' to='#'>
-                Action 2
+              <NavLink className='dropdown-item' to='/useeffect'>
+                UseEffect
               </NavLink>
             </div>
           </li>
         </ul>
-        
       </div>
     </nav>
   );
